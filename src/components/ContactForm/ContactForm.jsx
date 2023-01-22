@@ -46,8 +46,8 @@ export class ContactForm extends Component {
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
           title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
           required
-            placeholder="Enter your name"
-          value={name}
+        placeholder="Enter your name"
+         value={name}
           onChange={this.handleChange}
         />
         <LabelForm>Number</LabelForm>
